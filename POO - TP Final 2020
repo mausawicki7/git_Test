@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T20:25:50.357Z" agent="5.0 (Windows)" etag="JB_bz0vZlMRD0cZv8EeB" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-03T20:36:35.900Z" agent="5.0 (Windows)" etag="p1J1FI27sncYawzW1vpW" version="14.2.9" type="github">
   <diagram id="p2PhYgOKZxKWXyZE7qNA" name="Page-1">
     <mxGraphModel dx="1545" dy="485" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,7 +90,7 @@
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="XsjAsKs4p7WVD75Mf7hy-31" value="Libro" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="666" y="319" width="110" height="50" as="geometry" />
+          <mxGeometry x="646" y="320" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XsjAsKs4p7WVD75Mf7hy-32" value="Pelicula" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="892" y="392" width="110" height="50" as="geometry" />
