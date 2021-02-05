@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T15:46:37.420Z" agent="5.0 (Windows)" etag="ZB_OZObSHMRB3Tw2vETS" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-05T15:51:48.552Z" agent="5.0 (Windows)" etag="AXllyz7OxQ6dP0Mg3iHB" version="14.2.9" type="github">
   <diagram id="p2PhYgOKZxKWXyZE7qNA" name="Page-1">
     <mxGraphModel dx="1656" dy="485" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -710,7 +710,7 @@
           <mxGeometry x="229.75000000000003" y="3399" width="156" height="18" as="geometry" />
         </mxCell>
         <mxCell id="XsjAsKs4p7WVD75Mf7hy-254" value="[SI true]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="3496" width="51" height="18" as="geometry" />
+          <mxGeometry x="151" y="3488" width="51" height="18" as="geometry" />
         </mxCell>
         <mxCell id="XsjAsKs4p7WVD75Mf7hy-255" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -731,12 +731,12 @@
           <mxGeometry x="102" y="3412" width="20" height="76" as="geometry" />
         </mxCell>
         <mxCell id="XsjAsKs4p7WVD75Mf7hy-262" value="unContenido == contenido" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="473" y="3605" width="155" height="18" as="geometry" />
+          <mxGeometry x="485" y="3598" width="155" height="18" as="geometry" />
         </mxCell>
         <mxCell id="XsjAsKs4p7WVD75Mf7hy-263" value="true/false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="270.5" y="3654" width="61" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="XsjAsKs4p7WVD75Mf7hy-264" value="&lt;div&gt;para cada Contenido&lt;/div&gt;&lt;div&gt;en colContenidos&lt;/div&gt;&lt;div&gt;hasta true&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="XsjAsKs4p7WVD75Mf7hy-264" value="&lt;div&gt;para cada Contenido&lt;/div&gt;&lt;div&gt;en colContenidos&lt;/div&gt;&lt;div&gt;hasta encontrar&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="3591" width="125" height="46" as="geometry" />
         </mxCell>
         <mxCell id="XsjAsKs4p7WVD75Mf7hy-265" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -750,6 +750,21 @@
         </mxCell>
         <mxCell id="XsjAsKs4p7WVD75Mf7hy-271" value="suscripActual &amp;lt;- 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="165" y="738" width="108" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="XsjAsKs4p7WVD75Mf7hy-272" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="463" y="3740" as="sourcePoint" />
+            <mxPoint x="772" y="3740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XsjAsKs4p7WVD75Mf7hy-273" value="registrarPago(unContenido)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="542" y="3717" width="164" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="XsjAsKs4p7WVD75Mf7hy-274" value="suscActual &amp;lt;- 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="154.5" y="3366" width="94" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="XsjAsKs4p7WVD75Mf7hy-275" value="suscActual &amp;lt;- unaSuscripcion" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="3509" width="173" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
