@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T17:21:12.615Z" agent="5.0 (Windows)" etag="WtC5PVG8zjUWTOH8XRja" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-06T21:06:49.004Z" agent="5.0 (Windows)" etag="QKaw3mAY7EVep6qgkGtJ" version="14.2.9" type="github">
   <diagram id="p2PhYgOKZxKWXyZE7qNA" name="Page-1">
-    <mxGraphModel dx="1656" dy="485" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1656" dy="451" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -308,20 +308,20 @@
         <mxCell id="XsjAsKs4p7WVD75Mf7hy-117" value="[SI tipo=&#39;G&#39;]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="163" y="1544" width="70" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="XsjAsKs4p7WVD75Mf7hy-118" value="descuentos &amp;lt;- 33" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="176" y="1566" width="106" height="18" as="geometry" />
+        <mxCell id="XsjAsKs4p7WVD75Mf7hy-118" value="descuentos[4] &amp;lt;- 33" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1566" width="119" height="18" as="geometry" />
         </mxCell>
         <mxCell id="XsjAsKs4p7WVD75Mf7hy-122" value="[SI tipo=&#39;S&#39;]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="165" y="1597" width="69" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="XsjAsKs4p7WVD75Mf7hy-123" value="descuentos &amp;lt;- 12" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="178" y="1619" width="106" height="18" as="geometry" />
+        <mxCell id="XsjAsKs4p7WVD75Mf7hy-123" value="descuentos[4] &amp;lt;- 12" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="172" y="1619" width="119" height="18" as="geometry" />
         </mxCell>
         <mxCell id="XsjAsKs4p7WVD75Mf7hy-124" value="[SI tipo=&#39;B&#39;]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="167" y="1651" width="69" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="XsjAsKs4p7WVD75Mf7hy-125" value="descuentos &amp;lt;- 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="181.5" y="1678.5" width="99" height="18" as="geometry" />
+        <mxCell id="XsjAsKs4p7WVD75Mf7hy-125" value="descuentos[4] &amp;lt;- 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="175.5" y="1678.5" width="112" height="18" as="geometry" />
         </mxCell>
         <mxCell id="XsjAsKs4p7WVD75Mf7hy-126" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="XsjAsKs4p7WVD75Mf7hy-102">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -743,7 +743,7 @@
           <mxGeometry x="153" y="3697" width="57" height="18" as="geometry" />
         </mxCell>
         <mxCell id="XsjAsKs4p7WVD75Mf7hy-270" value="suscripActual &amp;lt;- unaSuscripcion" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="171.00000000000003" y="910" width="187" height="18" as="geometry" />
+          <mxGeometry x="175.50000000000003" y="909" width="187" height="18" as="geometry" />
         </mxCell>
         <mxCell id="XsjAsKs4p7WVD75Mf7hy-271" value="suscripActual &amp;lt;- 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="165" y="738" width="108" height="18" as="geometry" />
@@ -801,6 +801,30 @@
             <mxPoint x="140" y="3863" as="sourcePoint" />
             <mxPoint x="-31" y="3863" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XsjAsKs4p7WVD75Mf7hy-294" value="unaSuscripcion:SuscPorItem" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="41" y="3947" width="191" height="314" as="geometry" />
+        </mxCell>
+        <mxCell id="XsjAsKs4p7WVD75Mf7hy-295" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="XsjAsKs4p7WVD75Mf7hy-294">
+          <mxGeometry x="91" y="70" width="10" height="221" as="geometry" />
+        </mxCell>
+        <mxCell id="XsjAsKs4p7WVD75Mf7hy-298" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-69" y="4020" as="sourcePoint" />
+            <mxPoint x="132" y="4020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XsjAsKs4p7WVD75Mf7hy-299" value="efectuarCompra(unContenido)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-58" y="4000" width="178" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="XsjAsKs4p7WVD75Mf7hy-300" value="&lt;div align=&quot;left&quot;&gt;Descuentos suscMensual &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Peliculas 100%&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Libros 50%&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Apps 30%&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Juegos (Gold 33%, Silver 12%, Bronce 3%)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="666" y="2175" width="253" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="XsjAsKs4p7WVD75Mf7hy-301" value="&lt;div align=&quot;left&quot;&gt;suscPorItem&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- No puede comprar peliculas&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- No puede comprar juegos&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Puede comprar apps y libros precio normal&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="935" y="2175" width="254" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XsjAsKs4p7WVD75Mf7hy-302" value="descuentos[0,]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="208.85" y="1505" width="91" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
